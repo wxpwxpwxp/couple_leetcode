@@ -1,5 +1,3 @@
-# 此方法时间复杂度高，但是空间复杂度低
-# 后续可以设计一种时间复杂度低，但是空间复杂度高的方法
 class Solution:
     def lengthOfLongestSubstring(self, s: str):
       s_dict = list(s)
