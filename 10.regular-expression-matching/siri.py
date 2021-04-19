@@ -35,7 +35,7 @@ class Solution:
             return False
           s_index += 1
         else:
-          while(isEqual(s[s_index], current.val)):
+          while(s_index < len(s) and isEqual(s[s_index], current.val)):
             s_index += 1
         current = current.next
 
@@ -49,5 +49,6 @@ class Solution:
 
 
 s = Solution()
-s.isMatch('aab', 'c*a*b')
-s.isMatch('mississippi', 'mis*is*p*.')
+print(s.isMatch('aab', 'c*a*b'))
+print(s.isMatch('mississippi', 'mis*is*p*.'))
+print(s.isMatch('ahginragranoginaogi', '.*'))
