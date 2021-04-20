@@ -1,6 +1,4 @@
-# 题目地址：https://leetcode-cn.com/problems/roman-to-integer/
-
-# describe:
+## describe:
 
 罗马数字包含以下七种字符: I， V， X， L，C，D 和 M。
 
