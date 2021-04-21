@@ -11,6 +11,3 @@ class Solution:
         another_key = target - key
         if another_key in temp_dict and key != another_key:
           return [temp_dict[key], temp_dict[another_key]]
-
-s = Solution()
-print(s.twoSum([1, 2, 3, 4, 5, 6], 5))
