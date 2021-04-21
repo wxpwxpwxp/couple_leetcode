@@ -9,7 +9,3 @@ class Solution:
         return int(result) * -1
       else:
         return int(result + x_list[0])
-
-s = Solution()
-print(s.reverse(-123))
-print(s.reverse(-123) == -321)
