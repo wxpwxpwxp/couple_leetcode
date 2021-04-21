@@ -49,13 +49,3 @@ class Solution:
             return current_roman
           else:
             return current_roman + self.intToRoman(num % i)
-
-
-
-
-
-
-
-s = Solution()
-print(1994 ,s.intToRoman(1994) == 'MCMXCIV')
-print(58, s.intToRoman(58) == 'LVIII')
