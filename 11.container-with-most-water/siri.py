@@ -17,7 +17,3 @@ class Solution:
             longest = height_objs[i]['y'] * abs(height_objs[j]['x'] - height_objs[i]['x'])
 
       return longest
-
-
-s = Solution()
-print(s.maxArea([1,8,6,2,5,4,8,3,7]) == 49)

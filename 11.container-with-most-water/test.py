@@ -1,15 +1,14 @@
 import unittest
 from siri import Solution
-from wxp import sum_list
 
 class TestStringMethods(unittest.TestCase):
 
     def test_siri(self):
       s = Solution()
-      self.assertEqual(s.twoSum([1, 2, 3, 4], 4), [0, 2])
+      self.assertEqual(s.maxArea([1,8,6,2,5,4,8,3,7]), 49)
 
     def test_wxp(self):
-      self.assertEqual(sum_list([1, 2, 3, 4], 4), [0, 2])
+      return
 
 if __name__ == '__main__':
     unittest.main()
