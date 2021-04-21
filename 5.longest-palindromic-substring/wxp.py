@@ -26,9 +26,3 @@ def re_str(s):
         q += 1
         n += 1
     return a
-
-
-if __name__ == '__main__':
-    s = list(input("str:"))
-    n = re_str(s)
-    print(n)
