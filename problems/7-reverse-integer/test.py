@@ -1,6 +1,6 @@
 import unittest
-from siri import Solution
-from wxp import reverse
+from .siri import Solution
+from .wxp import reverse
 
 class TestStringMethods(unittest.TestCase):
 

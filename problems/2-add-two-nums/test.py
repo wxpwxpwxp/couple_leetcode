@@ -1,6 +1,6 @@
 import unittest
-from siri import *
-from wxp import twonumbers_sum
+from .siri import *
+from .wxp import twonumbers_sum
 
 l1 = None
 l2 = None

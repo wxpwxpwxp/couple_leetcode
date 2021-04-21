@@ -1,11 +1,13 @@
 import unittest
-from siri import Solution
+from .siri import Solution
 
 class TestStringMethods(unittest.TestCase):
 
     def test_siri(self):
       s = Solution()
-      self.assertEqual(s.maxArea([1,8,6,2,5,4,8,3,7]), 49)
+      self.assertEqual(s.romanToInt('MCMXCIV'), 1994)
+      self.assertEqual(s.romanToInt('LVIII'), 58)
+
 
     def test_wxp(self):
       return
