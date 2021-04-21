@@ -27,7 +27,3 @@ class Solution:
             longest = now_long
 
       return longest
-
-
-s = Solution()
-print(s.lengthOfLongestSubstring('abcabcbb'))

@@ -1,15 +1,15 @@
 import unittest
 from siri import Solution
-from wxp import sum_list
+from wxp import repeat_str
 
 class TestStringMethods(unittest.TestCase):
 
     def test_siri(self):
       s = Solution()
-      self.assertEqual(s.twoSum([1, 2, 3, 4], 4), [0, 2])
+      self.assertEqual(s.lengthOfLongestSubstring('abcabcbb'), 3)
 
     def test_wxp(self):
-      self.assertEqual(sum_list([1, 2, 3, 4], 4), [0, 2])
+      self.assertEqual(repeat_str('abcabcbb'), 3)
 
 if __name__ == '__main__':
     unittest.main()
