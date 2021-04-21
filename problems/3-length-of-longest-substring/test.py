@@ -1,6 +1,6 @@
 import unittest
-from siri import Solution
-from wxp import repeat_str
+from .siri import Solution
+from .wxp import repeat_str
 
 class TestStringMethods(unittest.TestCase):
 

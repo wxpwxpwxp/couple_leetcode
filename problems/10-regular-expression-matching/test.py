@@ -1,5 +1,5 @@
 import unittest
-from siri import Solution
+from .siri import Solution
 
 class TestStringMethods(unittest.TestCase):
 

@@ -1,15 +1,14 @@
 import unittest
-from siri import Solution
-from wxp import re_str
+from .siri import Solution
 
 class TestStringMethods(unittest.TestCase):
 
     def test_siri(self):
       s = Solution()
-      self.assertEqual(s.longestPalindrome('babad'), 'bab')
+      self.assertEqual(s.convert('PAYPALISHIRING', 4), 'PINALSIGYAHRPI')
 
     def test_wxp(self):
-      self.assertEqual(''.join(re_str('babad')), 'bab')
+      return
 
 if __name__ == '__main__':
     unittest.main()

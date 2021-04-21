@@ -1,6 +1,6 @@
 import unittest
-from siri import Solution
-from wxp import maddle_number
+from .siri import Solution
+from .wxp import maddle_number
 
 class TestStringMethods(unittest.TestCase):
 
