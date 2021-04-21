@@ -6,7 +6,7 @@ class TestStringMethods(unittest.TestCase):
 
     def test_siri(self):
       s = Solution()
-      self.assertEqual(s.twoSum([1, 2, 3, 4], 4), [0, 2])
+      self.assertEqual(s.twoSum([1, 2, 3, 4], 4), [0, 1])
 
     def test_wxp(self):
       self.assertEqual(sum_list([1, 2, 3, 4], 4), [0, 2])
