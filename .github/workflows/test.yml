@@ -1,0 +1,17 @@
+name: CI
+on:
+  pull_request:
+    types:
+      - opened
+      - synchronize
+      - reopened
+jobs:
+  tests:
+    name: Code Test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - uses: actions/setup-python@v2
+        with:
+          python-version: '3.7'
+      - run: python -m unittest problems/**/test.py
