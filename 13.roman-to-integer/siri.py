@@ -35,9 +35,3 @@ class Solution:
         return result
       else:
         return result + num_dict[s_list[len(s_list) - 1]]
-
-
-
-s = Solution()
-print('MCMXCIV', s.romanToInt('MCMXCIV') == 1994)
-print('LVIII', s.romanToInt('LVIII') == 58)

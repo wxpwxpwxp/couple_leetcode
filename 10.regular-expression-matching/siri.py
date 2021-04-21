@@ -43,12 +43,3 @@ class Solution:
         return True
       else:
         return False
-
-
-
-
-
-s = Solution()
-print(s.isMatch('aab', 'c*a*b'))
-print(s.isMatch('mississippi', 'mis*is*p*.'))
-print(s.isMatch('ahginragranoginaogi', '.*'))

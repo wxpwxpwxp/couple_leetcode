@@ -13,9 +13,3 @@ def repeat_str(s):
             tmp.append(s[i])
     result.sort()
     return result[len(result) - 1]
-
-
-if __name__ == '__main__':
-    s = list(input("str:"))
-    n = repeat_str(s)
-    print(n)

@@ -9,6 +9,13 @@ class ListNode:
         self.next.printNode()
 
 class Solution:
+    def getResult(self, head):
+      s = ''
+      while(head != None):
+        s += str(head.val)
+        head = head.next
+      return int(s)
+
     def addTwoNumbers(self, l1: ListNode, l2: ListNode):
       head = result = ListNode()
       carry = 0
@@ -32,31 +39,4 @@ class Solution:
           result.next = ListNode()
           result = result.next
         else:
-          return head
-
-
-l1 = None
-l2 = None
-
-last_l1 = None
-last_l2 = None
-
-for i in [2,4,3]:
-  temp = ListNode(i)
-  if last_l1:
-    last_l1.next = temp
-  else:
-    l1 = temp
-  last_l1 = temp
-
-for i in [5,6,4]:
-  temp = ListNode(i)
-  if last_l2:
-    last_l2.next = temp
-  else:
-    l2 = temp
-  last_l2 = temp
-
-s = Solution()
-result = s.addTwoNumbers(l1, l2)
-result.printNode()
+          return self.getResult(head)

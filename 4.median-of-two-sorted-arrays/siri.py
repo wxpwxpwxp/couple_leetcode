@@ -30,7 +30,3 @@ class Solution:
           current_next = nums2[nums2_index]
 
         return (current + current_next) / 2
-
-
-s = Solution()
-print(s.findMedianSortedArrays([1, 2], [3 ,4]))

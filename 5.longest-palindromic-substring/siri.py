@@ -30,7 +30,3 @@ class Solution:
       for i in range(target_index - longest + 1, target_index + longest):
         result += s_list[i]
       return result
-
-
-s = Solution()
-print(s.longestPalindrome('babad'))

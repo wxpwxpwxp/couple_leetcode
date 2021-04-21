@@ -11,10 +11,3 @@ def twonumbers_sum(m, n):
     c = list(map(int, str(sum_final)))
     d = list(reversed(c))
     return d
-
-
-if __name__ == '__main__':
-    list1 = list(input("1:").split(","))
-    list2 = list(input("2:").split(","))
-    result = twonumbers_sum(list1,list2)
-    print(result)

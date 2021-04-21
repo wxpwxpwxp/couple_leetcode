@@ -1,7 +1,7 @@
 def reverse(num):
     a = []
-    for i in num:
-        a.append(i)
+    for i in str(num):
+        a.append(int(i))
     #a = list(map(int, a))
     #a = [int(i) for i in a]
     a.reverse()
@@ -24,9 +24,3 @@ def reverse(num):
                b = b + 1
             else:
                b = b + 1
-
-
-
-if __name__ == '__main__':
-    num = input("a integer:")
-    reverse(num)

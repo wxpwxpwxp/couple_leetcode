@@ -24,17 +24,3 @@ def maddle_number(num1, num2):
     else:
         r = result[int(len(result)/2)]
         return r
-
-
-if __name__ == '__main__':
-    num1 = input("num1:").split(",")
-    num2 = input("num2:").split(",")
-    for s in num1:
-        if s == '':
-            num1 = []
-    if len(num1) != 0:
-        num1 = list(map(int, num1))
-    if len(num2) != 0:
-        num2 = list(map(int, num2))
-    m = maddle_number(num1,num2)
-    print(m)
