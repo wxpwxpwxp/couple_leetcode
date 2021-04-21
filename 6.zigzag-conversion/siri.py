@@ -20,9 +20,3 @@ class Solution:
                 else:
                     break
         return result
-
-
-s = Solution()
-print(s.convert('PAYPALISHIRING', 4))
-# result should be PAHNAPLSIIGYIR
-print(s.convert('PAYPALISHIRING', 4) == 'PINALSIGYAHRPI')
