@@ -15,7 +15,7 @@ def re_str(s):
     p = 0
     p = max(result)
     k = result.index(p)
-    j = q = n =0
+    j = q = n = 0
     a = []
     for j in range(len(s)):
         if tag[k] == s[j]:

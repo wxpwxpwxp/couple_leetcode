@@ -7,7 +7,7 @@ class Solution:
         for i in range(numRows):
             start = i
             result += s_list[start]
-            step_length = [num_rows_add - 2 * i , 2 * i ]
+            step_length = [num_rows_add - 2 * i, 2 * i]
             now_index = 0
             while start < s_length:
                 if step_length[now_index] == 0:
