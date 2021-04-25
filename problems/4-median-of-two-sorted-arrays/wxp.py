@@ -22,5 +22,5 @@ def maddle_number(num1, num2):
         r = (result[r1] + result[r2]) / 2
         return r
     else:
-        r = result[int(len(result)/2)]
+        r = result[int(len(result) / 2)]
         return r

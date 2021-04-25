@@ -10,7 +10,7 @@ def reverse(num):
     if len(a) == 1 and a[0] == '0':
         print(0)
     if '-' in a:
-        print(a[len(a) - 1],end='')
+        print(a[len(a) - 1], end='')
         while b < len(a) - 1:
             if a[b] != 0:
                 print(a[b], end='')
@@ -20,7 +20,7 @@ def reverse(num):
     else:
         while b <= len(a) - 1:
             if a[b] != '0':
-               print(a[b],end='')
-               b = b + 1
+                print(a[b], end='')
+                b = b + 1
             else:
-               b = b + 1
+                b = b + 1

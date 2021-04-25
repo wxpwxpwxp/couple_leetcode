@@ -1,13 +1,15 @@
 import unittest
 
+
 class TestStringMethods(unittest.TestCase):
     @unittest.skip('so easy & pass')
     def test_siri(self):
-      return
+        return
 
     @unittest.skip('so easy & pass')
     def test_wxp(self):
-      return
+        return
+
 
 if __name__ == '__main__':
     unittest.main()
