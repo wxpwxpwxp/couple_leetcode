@@ -15,6 +15,7 @@ jobs:
         with:
           python-version: '3.7'
       - run: python -m unittest problems/*/test.py
+  lint:
     name: Code Lint
     runs-on: ubuntu-latest
     steps:
