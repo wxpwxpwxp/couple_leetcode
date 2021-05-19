@@ -14,7 +14,7 @@ jobs:
       - uses: actions/setup-python@v2
         with:
           python-version: '3.7'
-      - run: python -m unittest problems/*/test.py
+      - run: python -m unittest problems/*/*/test.py
   lint:
     name: Code Lint
     runs-on: ubuntu-latest
@@ -24,4 +24,4 @@ jobs:
         with:
           python-version: '3.7'
       - run: pip install pylint
-      - run: python -m pylint -E --disable=E0402 ./problems/*/*.py
+      - run: python -m pylint -E --disable=E0402 ./problems/*/*/*.py
